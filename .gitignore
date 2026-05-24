@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data files
+data/raw/
+data/processed/
+*.zip
+*.rar
+*.7z
+*.csv
+
+# Image datasets
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+# Model files
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.pt
+*.pth
+models/
+checkpoints/
+
+# Logs / cache
+*.log
+.cache/
+runs/
+
+# Secrets
+.env
+kaggle.json
+config.json
+secrets.json
